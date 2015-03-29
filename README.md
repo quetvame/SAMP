@@ -1,2 +1,0 @@
-# SAMP
-Front-End
