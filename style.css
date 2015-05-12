@@ -1,0 +1,142 @@
+body {
+    /background: black;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+}
+div {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    margin: 0;
+}
+
+.ghostone {
+
+    /* utilizamos estas propiedades para centrar el botón */
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    /* definimos los estilos del texto */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* agregamos un borde y lo separamos del texto */
+    border: 0.15em solid #fff;
+    padding: 0.4em 0.6em;
+
+    /* animamos el cambio de colores */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+.ghostone:hover {
+    background: #819C68;
+    border-color: #819C68;
+    color: black;
+}
+
+.ghostwo {
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    left: 70%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+        /* definimos los estilos del texto */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* agregamos un borde y lo separamos del texto */
+    border: 0.15em solid #fff;
+    padding: 0.4em 0.6em;
+
+    /* animamos el cambio de colores */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghostwo:hover {
+    background: #819C68;
+    border-color: #819C68;
+    color: black;
+}
+
+.ghosthree {
+
+    /* utilizamos estas propiedades para centrar el botón */
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    left: 20%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    /* definimos los estilos del texto */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* agregamos un borde y lo separamos del texto */
+    border: 0.15em solid #fff;
+    padding: 0.4em 0.6em;
+
+    /* animamos el cambio de colores */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+.ghosthree:hover {
+    background: #819C68;
+    border-color: #819C68;
+    color: black;
+}
+
+.ghostfour {
+
+    /* utilizamos estas propiedades para centrar el botón */
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    left: 70%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    /* definimos los estilos del texto */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* agregamos un borde y lo separamos del texto */
+    border: 0.15em solid #fff;
+    padding: 0.4em 0.6em;
+
+    /* animamos el cambio de colores */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+}
+.ghostfour:hover {
+    background: #819C68;
+    border-color: #819C68;
+    color: black;
+}
